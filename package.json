@@ -1,0 +1,29 @@
+{
+  "name": "backendprograii",
+  "version": "1.0.0",
+  "description": "Backend para proyecto de la universidad, cuso programacion II",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANGELBARRIOS0/BackendPrograII.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ANGELBARRIOS0/BackendPrograII/issues"
+  },
+  "homepage": "https://github.com/ANGELBARRIOS0/BackendPrograII#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
